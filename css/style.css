@@ -9,7 +9,7 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties
 /*******************************************/
 
 html {
-  font-size: 62.5%; /* font-size 1em = 10px on default browser settings */
+  font-size: 100%; /* font-size 62.5% of 16px = 10px, default browser settings */
 }
 
 /* * {
@@ -23,11 +23,11 @@ html {
 
 body {
   margin: 5%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.6rem;
 }
 
 body * {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 1.6rem;
   margin: 1% 0;
 }
 
