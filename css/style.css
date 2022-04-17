@@ -31,9 +31,15 @@ body * {
   margin: 1% 0;
 }
 
-body > *, header > * {
+body > *, header > *, form > * {
   display: flex;
   flex-direction: column;
+}
+
+@media (min-width: 1000px) {
+  form > * {
+    display: inline;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,6 +55,7 @@ h6 {  font-size: 1.072rem;}
 
 button {
   margin: 0;
+  font-size: 1.6rem;
 }
 
 img {
@@ -100,7 +107,7 @@ img {
   /* flex-wrap: nowrap; */
 }
 
-.field-data > span, p {
+.field-data > span, .field-data > p {
   padding-top: 0.272rem;
   padding-left: 1%;
 }
