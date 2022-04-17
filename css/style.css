@@ -1,0 +1,123 @@
+/* LAST MINUTE TO-DOS
+
+Perhaps the best way to handle this is to write in the new (and final) syntax and run your CSS through Autoprefixer, which handles the fallbacks very well.
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties
+*/
+
+/******************************************
+/* CSS
+/*******************************************/
+
+html {
+  font-size: 62.5%; /* font-size 1em = 10px on default browser settings */
+}
+
+/* * {
+  display: flex;
+  flex-direction: column;
+} */
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  margin: 5%;
+}
+
+body * {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.6rem;
+  margin: 1% 0;
+}
+
+body > *, header > * {
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+h1 {  font-size: 3.2rem;}
+h2 {  font-size: 2.4rem;}
+h3 {  font-size: 1.872rem;}
+h4 {  font-size: 1.6rem;}
+h5 {  font-size: 1.328rem;}
+h6 {  font-size: 1.072rem;}
+
+button {
+  margin: 0;
+}
+
+img {
+  margin: 0 auto 0 0;
+  /* float: right; */
+}
+
+#product-info {
+  display: none;
+}
+
+/* .photo-wrap > div + div {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+} */
+
+.photo-wrap {
+  /* display: inline-flex; */
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+}
+
+.photo-wrap > * {
+  /* display: inline-flex;
+  flex-direction: column; */
+}
+
+.col {
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  /* display: inline-flex; */
+  /* align-items: flex-end; */
+}
+
+#img-main-small-div {
+  /* display: inline-flex;
+  float: right; */
+  /* align-items: flex-end; */
+  /* justify-content: space-between; */
+  /* flex-wrap: unset; */
+}
+
+.field-data {
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-start; */
+  margin: 0;
+  /* flex-wrap: nowrap; */
+}
+
+.field-data > span, p {
+  padding-top: 0.272rem;
+  padding-left: 1%;
+}
+
+/* footer * {
+  display: inline;
+  flex-direction: row;
+} */
+
+aside {
+  color: darkslategray;
+}
+
+/* aside, a {
+  border: 1px solid black;
+} */
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

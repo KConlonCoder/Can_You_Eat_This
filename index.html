@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Can You Eat This?</title>
+
+		<!-- external CSS link -->
+		<!-- <link rel="stylesheet" href="css/normalize.css"> -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Can You eat this?</h1>
+
+			<section>
+				<!-- <h2>Enter your food preferences</h2> -->
+				<h2>Search for a product</h2>
+				<form>
+					<span>Enter a UPC barcode number (12 digits) </span><input type="text" name="UPC">
+					<button type="button">Find</button>
+				</form>
+				
+			</section>
+		</header>
+
+		<section id="product-info">
+			
+			<h2>Product Information</h2>
+
+			<div class="photo-wrap">
+				
+				<div class="col" id="img-main-small-div"><img src="" alt="Product main image" id="img-main-small"></div>
+				
+				<!-- <div class="col"> -->
+					<div class="field-data">
+						<h3>Product:</h3>
+						<span id="product-name"></span>
+					</div>
+		
+					<div class="field-data">
+						<h3>Brand:</h3>
+						<span id="brand"></span>
+					</div>
+
+					<div class="field-data">
+						<h3>Ingredients:</h3>
+						<p id="ingredients"></p>
+					</div>
+					
+					<div class="field-data">
+						<h3>Allergens:</h3>
+						<p id="allergens"></p>
+					</div>
+		
+					<div class="field-data">
+						<h3>Tags:</h3>
+						<span id="labels"></span>
+					</div>
+					
+				<!-- </div> -->
+				
+				
+			</div>
+			
+		</section>
+		
+		<footer>
+			<aside>Data provided by <a href="https://world.openfoodfacts.org" target="_blank">Open Food Facts API.</a></aside>
+		</footer>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
