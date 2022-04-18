@@ -27,6 +27,10 @@ body {
   font-size: 1.6rem;
 }
 
+body p {
+  margin: 0;
+}
+
 body * {
   margin: 1% 0;
 }
@@ -53,18 +57,22 @@ h4 {  font-size: 1.6rem;}
 h5 {  font-size: 1.328rem;}
 h6 {  font-size: 1.072rem;}
 
-button {
+button, input {
   margin: 0;
   font-size: 1.6rem;
+}
+
+#product-info {
+  display: none;
+}
+
+h3 {
+  margin: 1.6rem 0 0 0;
 }
 
 img {
   margin: 0 auto 0 0;
   /* float: right; */
-}
-
-#product-info {
-  display: none;
 }
 
 /* .photo-wrap > div + div {
@@ -100,28 +108,31 @@ img {
 }
 
 .field-data {
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
   /* align-items: flex-start; */
-  margin: 0;
+  /* margin: 0; */
   /* flex-wrap: nowrap; */
 }
 
 .field-data > span, .field-data > p {
-  padding-top: 0.272rem;
-  padding-left: 1%;
+  /* padding-top: 0.272rem; */
+  /* padding-left: 1%; */
 }
 
-/* footer * {
-  display: inline;
-  flex-direction: row;
-} */
+footer * {
+  margin-top: 2rem;
+  /* display: inline; */
+  /* flex-direction: row; */
+  /* display: flex; */
+  /* align-self: flex-end; */
+}
 
 aside {
   color: darkslategray;
 }
 
-/* aside, a {
+/* p, h3, span, div {
   border: 1px solid black;
 } */
 
