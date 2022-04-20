@@ -12,15 +12,6 @@ html {
   font-size: 100%; /* font-size 62.5% of 16px = 10px, default browser settings */
 }
 
-/* * {
-  display: flex;
-  flex-direction: column;
-} */
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
 body {
   margin: 5%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -58,7 +49,7 @@ h5 {  font-size: 1.328rem;}
 h6 {  font-size: 1.072rem;}
 
 button, input {
-  margin: 0;
+  margin: 1rem 0;
   font-size: 1.6rem;
 }
 
@@ -72,70 +63,12 @@ h3 {
 
 img {
   margin: 0 auto 0 0;
-  /* float: right; */
-}
-
-/* .photo-wrap > div + div {
-  display: inline-flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-} */
-
-.photo-wrap {
-  /* display: inline-flex; */
-  /* flex-direction: row; */
-  /* flex-wrap: wrap; */
-}
-
-.photo-wrap > * {
-  /* display: inline-flex;
-  flex-direction: column; */
-}
-
-.col {
-  /* flex-direction: row; */
-  /* flex-wrap: wrap; */
-  /* display: inline-flex; */
-  /* align-items: flex-end; */
-}
-
-#img-main-small-div {
-  /* display: inline-flex;
-  float: right; */
-  /* align-items: flex-end; */
-  /* justify-content: space-between; */
-  /* flex-wrap: unset; */
-}
-
-.field-data {
-  /* display: flex;
-  flex-direction: row; */
-  /* align-items: flex-start; */
-  /* margin: 0; */
-  /* flex-wrap: nowrap; */
-}
-
-.field-data > span, .field-data > p {
-  /* padding-top: 0.272rem; */
-  /* padding-left: 1%; */
 }
 
 footer * {
   margin-top: 2rem;
-  /* display: inline; */
-  /* flex-direction: row; */
-  /* display: flex; */
-  /* align-self: flex-end; */
 }
 
 aside {
   color: darkslategray;
 }
-
-/* p, h3, span, div {
-  border: 1px solid black;
-} */
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
