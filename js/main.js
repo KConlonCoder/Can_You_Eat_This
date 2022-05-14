@@ -44,6 +44,11 @@ function getFetch(){
             }           
             
         })
+
+        .catch(err => {
+            alert(err)
+        });
+
     } else {
         return;
     }
